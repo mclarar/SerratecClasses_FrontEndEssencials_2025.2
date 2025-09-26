@@ -1,0 +1,44 @@
+/* sempre em inglês */
+* {
+   margin: 0;
+   /* margem - espaçamento pra fora do conteúdo */
+   padding: 0;
+   /* padding - espaçamento pra dentro do conteúdo */
+   box-sizing: border-box;
+   /* limita o conteudo dentro do meu espaço da tela */
+}
+
+nav {
+   background-color: #232121;
+   width: 100%;
+   height: 10vh;
+}
+
+.menu {
+   color: #f9f9f9;
+   display: flex;
+   justify-content: center;
+}
+
+.lista-ordenada {
+   background-color: #c485a5;
+}
+
+.lista-desordenada {
+   background-color: coral;
+}
+
+div {
+   background-color: #824a66;
+   /* cor de fundo */
+   width: 50%;
+   /* width - largura */
+   height: 20vh;
+   /* height - altura */
+   border-radius: 8px;
+   /* border radius - arredondamento das bordas */
+}
+
+h1 {
+   background-color: yellow;
+}
