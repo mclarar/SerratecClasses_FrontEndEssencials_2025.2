@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <div class="container">
+        <form action="">
+            <div>
+                <label for="">Nome</label>
+                <input type="text" placeholder="Digite seu Nome" required>
+            </div>
+                <label for="">Sobrenome</label>
+                <input type="text" placeholder="Digite seu sobrenome">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" placeholder="Digite seu email">
+            </div>
+            <div>
+                <label for="Em qual stack vc gosta de trabalhar?"></label>
+                <label for="stack">
+                    <input type="radio" value="frontend" name="stack"/> Frontend
+                    <input type="radio" value="backend" name="stack"/> Backend
+                    <input type="radio" value="fullstack" name="stack"/> fullstack
+                </label>
+            </div>
+            <div>
+                <label for="senioridade">Senioridade</label>
+                <select name="senioridade">
+                    <option value="junior">Junior</option>
+                    <option value="pleno">Pleno</option>
+                    <option value="senior">Sênior</option>
+                </select>
+            </div>
+            <div>
+                <label>Selecione suas tecnologias favoritas</label>
+                <label for="">
+                    <input type="checkbox" value="java"/> Java
+                    <input type="checkbox" value="JavaScript"/> JavaScript
+                    <input type="checkbox" value="php"/> PHP
+                    <input type="checkbox" value="python"/> Python
+                </label>
+            </div>
+            <div>
+                <button>Enviar</button>
+            </div>
+        </form>
+    </div>
+  </body>
+</html>
