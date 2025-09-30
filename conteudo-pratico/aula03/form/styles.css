@@ -1,15 +1,73 @@
 * {
-    margin: 0;
-    /* margem - espaçamento pra fora do conteúdo */
-    padding: 0;
-    /* padding - espaçamento pra dentro do conteúdo */
-    box-sizing: border-box;
-    /* limita o conteudo dentro do meu espaço da tela */
+  margin: 0;
+  /* margem - espaçamento pra fora do conteúdo */
+  padding: 0;
+  /* padding - espaçamento pra dentro do conteúdo */
+  box-sizing: border-box;
+  /* limita o conteudo dentro do meu espaço da tela */
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(49, 47, 47);
-    display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 1rem
+
+}
+
+.form-container {
+  background-color: #646161;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 3px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;;
+}
+
+.input-text-container {
+  /* background-color: dodgerblue; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem
+}
+
+.input-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.input-radio-container {
+  /* background-color: lime; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-select-container {
+  /* background-color: magenta; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-checkbox-container{
+  /* background-color: darkviolet; */
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button{
+  background-color: #5a5ac8;
+  color: white;
+  width: 4rem;
 }
