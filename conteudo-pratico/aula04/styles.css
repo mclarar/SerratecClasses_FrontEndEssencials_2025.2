@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  /* margem - espaçamento pra fora do conteúdo */
+  padding: 0;
+  /* padding - espaçamento pra dentro do conteúdo */
+  box-sizing: border-box;
+  /* limita o conteudo dentro do meu espaço da tela */
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #201f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem
+}
+
+.cards-containers {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem
+}
+
+.card {
+  background-color: #ffc0cb;
+  border: 2px solid #660314;
+  border-radius: 8px;
+  height: 15rem;
+  width: 10rem;
+}
+
+/* media query */ 
+/* diretiva para aplicar estilos diferentes dependendo do tamanho da tela */
+/* estrututra do media qyery */
+@media (max-width: 600px) {
+  .cards-containers {
+    flex-direction: column;
+    /* background-color: blue; */
+  }
+}
+
+/* @media - palavra chave */
+/* media-type - tipo de mídia (tela, impressão, etc)
+screen - tela de dispositivos eletrônicos 
+print - mídia impressa (impressora) 
+handheld - dispositivos móveis (celular, tablet) */
+
+/* expression - condição para aplicar os estilos (largura) */
+
+@media (min-width: 600px) {
+  .cards-containers {
+    flex-direction: column;
+    background-color: rgb(255, 0, 76);
+  }
+}
+
+/* mobile first - primeiro o mobile depois o desktop
+penso no estilo mobile e vou adaoptando para o desktop */
+
+/* max-width - largura maxima -> 
+o elemento se modifica até a largura estabelecida */
+
+/* min-width - largura minima ->
+o elemento se modifica a partir da largura estabelecida */
+/* usado no mobile first */
+
+
