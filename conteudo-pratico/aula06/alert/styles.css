@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  /* margem - espaçamento pra fora do conteúdo */
+  padding: 0;
+  /* padding - espaçamento pra dentro do conteúdo */
+  box-sizing: border-box;
+  /* limita o conteudo dentro do meu espaço da tela */
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #201f1f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem
+}
